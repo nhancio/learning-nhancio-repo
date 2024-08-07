@@ -15,7 +15,7 @@ body {
     font-size: 16px;
     /* font-weight: 400; */
     line-height: 1.8;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* text-align: left; */
    
 }
@@ -408,6 +408,13 @@ svg{
     margin-right: -25px !important;
     margin-left: -25px !important;
     margin-top: 40px;
+}
+
+.a1{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
 }
 
 .px-25 {
