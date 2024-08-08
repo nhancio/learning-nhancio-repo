@@ -14,6 +14,7 @@ body {
     margin: 0;
     color: #021526;
     font-size: 16px;
+   
     /* font-weight: 400; */
     line-height: 1.8;
     /* font-family:'Times New Roman', Times, serif; */
@@ -114,6 +115,7 @@ a:hover, a:active {
 
 nav{
     background-color:  radial-gradient(circle at 50% 20%, #201b5a, #03040f); ;
+   
     /* box-shadow: 3px 3px 5px ; */
 }
 nav ul{
@@ -130,6 +132,7 @@ nav a {
     height: 100%;
     padding: 16px 26px;
     text-decoration: none;
+  
     display: block;
     align-items: center;
     color: #fff;
@@ -150,10 +153,11 @@ nav li:first-child{
 .sidebar{
     position: fixed;
     top:0;
-    left: 0;
+    right: 0;
     height: 100vh;
     width: 250px;
     z-index: 999;
+    overlay:'block';
     background-color: rgba(0, 0, 0, .9) ;
     /* color: #021526; */
     backdrop-filter: blur(10px);
@@ -165,6 +169,14 @@ nav li:first-child{
     font-weight: 500;
     font-size: 20px;
 }
+.hide{
+    visibility: hidden;
+}
+.show{
+    visibility: visible;
+}
+
+
 .sidebar li{
     width: 100%;
 }
@@ -197,7 +209,6 @@ svg{
         width: 100%;
     }
 }
-
 
 /*Hero Section*/
 .hero-content {
@@ -1053,6 +1064,7 @@ p.footer-copyright {
     align-items: flex-start;
     gap: 20px;
     padding: 0px;
+ 
     /* margin-right: 100px; */
     /* margin-left: 100px */
    
@@ -1093,11 +1105,13 @@ p.footer-copyright {
         margin-left: 8px;
     }
     .link-column{
-        
-        margin-left: 18px;
-        margin-top: 10px;
+        align-items: flex-start;
+        margin-left: 21px;
+        margin-top: 15px;
     }
   }
+  
+
 
   .latest-news-events2{
     background: #021526;
