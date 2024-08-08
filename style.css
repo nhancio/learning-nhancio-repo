@@ -29,6 +29,9 @@ img {
     
     vertical-align: baseline;
 }
+span{
+    margin-right: 8px;
+}
 
 .images{
     height: 44px;
@@ -132,7 +135,6 @@ nav a {
     height: 100%;
     padding: 16px 26px;
     text-decoration: none;
-  
     display: block;
     align-items: center;
     color: #fff;
@@ -157,7 +159,7 @@ nav li:first-child{
     height: 100vh;
     width: 250px;
     z-index: 999;
-    overlay:'block';
+    /* overlay:'block'; */
     background-color: rgba(0, 0, 0, .9) ;
     /* color: #021526; */
     backdrop-filter: blur(10px);
@@ -169,13 +171,17 @@ nav li:first-child{
     font-weight: 500;
     font-size: 20px;
 }
+
+
+.sidebar a:hover{
+    color: #6EACDA;
+}
 .hide{
     visibility: hidden;
 }
 .show{
     visibility: visible;
 }
-
 
 .sidebar li{
     width: 100%;
