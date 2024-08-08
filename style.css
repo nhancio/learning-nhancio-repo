@@ -29,6 +29,9 @@ img {
     
     vertical-align: baseline;
 }
+span{
+    margin-right: 8px;
+}
 
 .images{
     height: 44px;
@@ -169,13 +172,18 @@ nav li:first-child{
     font-weight: 500;
     font-size: 20px;
 }
+
+
+.sidebar a:hover{
+    color: #6EACDA;
+}
+
 .hide{
     visibility: hidden;
 }
 .show{
     visibility: visible;
 }
-
 
 .sidebar li{
     width: 100%;
