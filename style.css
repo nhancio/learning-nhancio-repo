@@ -26,7 +26,6 @@ body {
 
 
 img {
-    
     vertical-align: baseline;
 }
 span{
@@ -37,8 +36,17 @@ span{
     height: 44px;
     width: 44px;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 /*links*/
 a {
     color: #fff;
@@ -1098,6 +1106,7 @@ p.footer-copyright {
 .link-column a{
     text-decoration: none;
     color: #fff;
+    margin-left: 10px;
 }
 
 .link-column a:hover{
@@ -1118,11 +1127,13 @@ p.footer-copyright {
 }
 .quick-links ul{
     margin-top: 16px;
+    margin-left: 10px;
 }
 
 .l1 a{
     display: flex;
 }
+
 
 @media screen and (max-width: 800px) {
    
@@ -1134,8 +1145,12 @@ p.footer-copyright {
     .link-column{
         font-size: medium;
         align-items: flex-start;
-        margin-left: 21px;
+        margin-left: 10px;
         /* margin-top: 15px; */
+    }
+    .l1{
+        align-items: flex-start;
+        margin-left: 10px;
     }
   }
   
