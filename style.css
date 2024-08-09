@@ -176,6 +176,10 @@ nav li:first-child{
 .sidebar a:hover{
     color: #6EACDA;
 }
+.sidebar .hide a:hover {
+    color: #6EACDA;
+    cursor: pointer;
+}
 .hide{
     visibility: hidden;
 }
@@ -445,6 +449,13 @@ svg{
 .course-content:hover {
     box-shadow: 0 24px 38px rgba(81,107,117,.21);
 }
+
+.entry-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .course-thumbnail {
     width: 100%;
@@ -1068,7 +1079,7 @@ p.footer-copyright {
     width: 200px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 10px;
     padding: 0px;
  
     /* margin-right: 100px; */
@@ -1094,26 +1105,37 @@ p.footer-copyright {
     color: #6EACDA;
 }
 
+.link-column a span{
+    margin-left: 8px;
+}
 .flex{
     /* display: flex; */
     align-items: center;
 }
 .quick-links{
     margin-left: 50px;
+    font-size: medium;
+}
+.quick-links ul{
+    margin-top: 16px;
 }
 
-
-
+.l1 a{
+    display: flex;
+}
 
 @media screen and (max-width: 800px) {
    
     .quick-links{
         margin-left: 8px;
+        font-size: medium;
+        
     }
     .link-column{
+        font-size: medium;
         align-items: flex-start;
         margin-left: 21px;
-        margin-top: 15px;
+        /* margin-top: 15px; */
     }
   }
   
@@ -1125,3 +1147,9 @@ p.footer-copyright {
 
 
   }
+
+
+  footer.entry-footer.flex.justify-content-between.align-items-center {
+  
+   flex-direction: column;
+}
