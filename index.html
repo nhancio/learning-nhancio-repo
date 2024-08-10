@@ -459,6 +459,23 @@ data-aos-anchor-placement="center-bottom">
            
         </div>
     </div>
+    <script>
+        document.querySelectorAll('div ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        // Prevent the default action
+        e.preventDefault();
+
+        // Get the target section from the href attribute
+        const targetId = this.getAttribute('href').substring(1);
+
+        // Scroll to the target section
+        document.getElementById(targetId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+        
+    </script>
     <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0"> 
         <div class="link-column flex">
             <h4 style="color: #ffffff;">Follow Us</h4>
