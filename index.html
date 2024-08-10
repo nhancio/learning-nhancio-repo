@@ -61,6 +61,20 @@
                     </ul>
                 </nav>
     <script>
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        // Prevent the default action
+        e.preventDefault();
+
+        // Get the target section from the href attribute
+        const targetId = this.getAttribute('href').substring(1);
+
+        // Scroll to the target section
+        document.getElementById(targetId).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
         function showSidebar(){
         const sidebar=document.querySelector('.sidebar');
         sidebar.style.display ='flex';
