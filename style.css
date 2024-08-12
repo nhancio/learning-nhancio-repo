@@ -26,19 +26,28 @@ body {
 
 
 img {
-    
     vertical-align: baseline;
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
 }
+
 span{
     margin-right: 8px;
 }
 
 .images{
-    height: 44px;
-    width: 44px;
-    margin-right: 10px;
-    margin-top: 5px;
+     margin-right: 10px;
+    margin-top: 10px;
+ 
+    
+    /* background-color: cyan; */
 }
+.site-title a{
+    display: flex;
+    align-items:center;
+}
+
 /*links*/
 a {
     color: #fff;
@@ -483,6 +492,8 @@ svg{
     line-height: 1.3;
     font-weight: 400;
     margin-left: 13px;
+    display: flex;
+    justify-content: center
 }
 
 .course-content .entry-title a {
@@ -1098,6 +1109,7 @@ p.footer-copyright {
 .link-column a{
     text-decoration: none;
     color: #fff;
+    margin-left: 10px;
 }
 
 .link-column a:hover{
@@ -1118,11 +1130,13 @@ p.footer-copyright {
 }
 .quick-links ul{
     margin-top: 16px;
+    margin-left: 10px;
 }
 
 .l1 a{
     display: flex;
 }
+
 
 @media screen and (max-width: 800px) {
    
@@ -1134,8 +1148,12 @@ p.footer-copyright {
     .link-column{
         font-size: medium;
         align-items: flex-start;
-        margin-left: 21px;
+        margin-left: 10px;
         /* margin-top: 15px; */
+    }
+    .l1{
+        align-items: flex-start;
+        margin-left: 10px;
     }
   }
   
