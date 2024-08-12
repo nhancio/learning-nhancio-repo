@@ -16,18 +16,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-        <link rel="stylesheet" href="css/elegant-fonts.css">
-    
         <link rel="stylesheet" href="style.css">
         <!-- <link rel="stylesheet" href="script.js"> -->
     
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         
         <script
-            nonce="c6427849-6ef9-4732-98be-212dc726fa7f">(function (w, d) { !function (bg, bh, bi, bj) { bg[bi] = bg[bi] || {}; bg[bi].executed = []; bg.zaraz = { deferred: [], listeners: [] }; bg.zaraz.q = []; bg.zaraz._f = function (bk) { return function () { var bl = Array.prototype.slice.call(arguments); bg.zaraz.q.push({ m: bk, a: bl }) } }; for (const bm of ["track", "set", "debug"]) bg.zaraz[bm] = bg.zaraz._f(bm); bg.zaraz.init = () => { var bn = bh.getElementsByTagName(bj)[0], bo = bh.createElement(bj), bp = bh.getElementsByTagName("title")[0]; bp && (bg[bi].t = bh.getElementsByTagName("title")[0].text); bg[bi].x = Math.random(); bg[bi].w = bg.screen.width; bg[bi].h = bg.screen.height; bg[bi].j = bg.innerHeight; bg[bi].e = bg.innerWidth; bg[bi].l = bg.location.href; bg[bi].r = bh.referrer; bg[bi].k = bg.screen.colorDepth; bg[bi].n = bh.characterSet; bg[bi].o = (new Date).getTimezoneOffset(); if (bg.dataLayer) for (const bt of Object.entries(Object.entries(dataLayer).reduce(((bu, bv) => ({ ...bu[1], ...bv[1] })), {}))) zaraz.set(bt[0], bt[1], { scope: "page" }); bg[bi].q = []; for (; bg.zaraz.q.length;) { const bw = bg.zaraz.q.shift(); bg[bi].q.push(bw) } bo.defer = !0; for (const bx of [localStorage, sessionStorage]) Object.keys(bx || {}).filter((bz => bz.startsWith("_zaraz_"))).forEach((by => { try { bg[bi]["z_" + by.slice(7)] = JSON.parse(bx.getItem(by)) } catch { bg[bi]["z_" + by.slice(7)] = bx.getItem(by) } })); bo.referrerPolicy = "origin"; bo.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(bg[bi]))); bn.parentNode.insertBefore(bo, bn) };["complete", "interactive"].includes(bh.readyState) ? zaraz.init() : bg.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document);</script>
+            nonce="c6427849-6ef9-4732-98be-212dc726fa7f">(function (w, d) { !function (bg, bh, bi, bj) { bg[bi] = bg[bi] || {}; bg[bi].executed = []; bg.zaraz = { deferred: [], listeners: [] }; bg.zaraz.q = []; bg.zaraz._f = function (bk) { return function () { var bl = Array.prototype.slice.call(arguments); bg.zaraz.q.push({ m: bk, a: bl }) } }; for (const bm of ["track", "set", "debug"]) bg.zaraz[bm] = bg.zaraz._f(bm); bg.zaraz.init = () => { var bn = bh.getElementsByTagName(bj)[0], bo = bh.createElement(bj), bp = bh.getElementsByTagName("title")[0]; bp && (bg[bi].t = bh.getElementsByTagName("title")[0].text); bg[bi].x = Math.random(); bg[bi].w = bg.screen.width; bg[bi].h = bg.screen.height; bg[bi].j = bg.innerHeight; bg[bi].e = bg.innerWidth; bg[bi].l = bg.location.href; bg[bi].r = bh.referrer; bg[bi].k = bg.screen.colorDepth; bg[bi].n = bh.characterSet; bg[bi].o = (new Date).getTimezoneOffset(); if (bg.dataLayer) for (const bt of Object.entries(Object.entries(dataLayer).reduce(((bu, bv) => ({ ...bu[1], ...bv[1] })), {}))) zaraz.set(bt[0], bt[1], { scope: "page" }); bg[bi].q = []; for (; bg.zaraz.q.length;) { const bw = bg.zaraz.q.shift(); bg[bi].q.push(bw) } bo.defer = !0; for (const bx of [localStorage, sessionStorage]) Object.keys(bx || {}).filter((bz => bz.startsWith("_zaraz_"))).forEach((by => { try { bg[bi]["z_" + by.slice(7)] = JSON.parse(bx.getItem(by)) } catch { bg[bi]["z_" + by.slice(7)] = bx.getItem(by) } })); bo.referrerPolicy = "origin"; bo.src = "../../cdn-cgi/zaraz/sd0d9.js?z=" + btoa(encodeURIComponent(JSON.stringify(bg[bi]))); bn.parentNode.insertBefore(bo, bn) };["complete", "interactive"].includes(bh.readyState) ? zaraz.init() : bg.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, "zarazData", "script"); })(window, document); </script>
     
     </head>
 <body>
@@ -38,18 +33,20 @@
                     <div class="row">
                         <div class="col-9 col-lg-3">
                             <div class="site-branding">
-                                <h1 class="site-title"><a href='#home' rel='home'>
-                                    <img src="Nhancio.png" alt="" class="images">Nhan<span>cio</span></a></h1>
+                                <h1 class="site-title">
+                                    <a href='#home' rel='home'>
+                                    <img src="Nhancio.png" alt="Logo" width="44" height="44" class="d-inline-block align-text-down">
+                                    Nhan<span>cio</span></a></h1>
                             </div>
                         </div>
                         <div class="col-3 col-lg-9 flex justify-content-end align-content-center">
                         <nav>
                          <ul class="sidebar">
                         <li onclick=hideSidebar()><a ><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-                        <li><a href="#Home" onclick=hideside()><span><i class="fa-solid fa-house"></i></span>Home</a></li>
-                        <li><a href="#About" onclick=hideside()><span><i class="fa-regular fa-address-card"></i></span>About</a></li>
-                        <li><a href="#Internships" onclick=hideside()><span><i class="fa-solid fa-briefcase"></i></span>Interships</a></li>
-                        <li><a href="#Contact" onclick=hideside()><span><i class="fa-solid fa-address-book"></i></span>Contact Us</a></li>
+                        <li><a href="#Home" onclick=hideside() ><span><i class="fa-solid fa-house"></i></span>Home</a></li>
+                        <li><a href="#About" onclick=hideside() ><span><i class="fa-regular fa-address-card"></i></span>About</a></li>
+                        <li><a href="#Internships" onclick=hideside() ><span><i class="fa-solid fa-briefcase"></i></span>Interships</a></li>
+                        <li><a href="#Contact" onclick=hideside() ><span><i class="fa-solid fa-address-book"></i></span>Contact Us</a></li>
                     </ul>
                     <ul>
                         <!-- <li><img src="/Nhancio.png" alt="" class="images">Nhan<span>cio</span></a></h1></li> -->
@@ -71,7 +68,7 @@
 
         // Scroll to the target section
         document.getElementById(targetId).scrollIntoView({
-            behavior: 'smooth'
+            behavior:"smooth"
         });
     });
 });
@@ -222,7 +219,7 @@ data-aos-anchor-placement="center-bottom">
             </figure>
             <div class="course-content-wrap">
                 <header class="entry-header">
-                    <h2 class="entry-title"><a>Basic Web Development</a></h2>
+                    <h2 class="entry-title"><a>Web Development</a></h2>
                     <div class="entry-meta flex align-items-center">
                         <div class="course-date">Build stunning, live and responsive websites with cutting edge tech stack.</div>
                     </div>
@@ -243,7 +240,7 @@ data-aos-anchor-placement="center-bottom">
             </figure>
             <div class="course-content-wrap">
                 <header class="entry-header">
-                    <h2 class="entry-title"><a>App Development with flutter</a></h2>
+                    <h2 class="entry-title"><a>App Development</a></h2>
                     <div class="entry-meta flex align-items-center">
                         <div class="course-date">Build native multi-platform applications with flutter and dart.</div>
                     </div>
