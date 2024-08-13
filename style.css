@@ -27,9 +27,7 @@ body {
 
 img {
     vertical-align: baseline;
-    height: 70px;
-    width: 70px;
-    margin-left: 10px;
+  
 }
 
 span{
@@ -241,6 +239,7 @@ svg{
 
 .hero-content-overlay {
     background: radial-gradient(circle at 50% 20%, #201b5a, #03040f);;
+    
     /* margin-top: 5px; */
 }
 
